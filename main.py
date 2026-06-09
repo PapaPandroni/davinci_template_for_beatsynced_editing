@@ -49,7 +49,7 @@ def create_timeline (resolve, audio_file: str, black_video: str): #you need to p
 
     #This is needed so the music isnt added at the end of the video
     """
-    Might not be needed anymore, but it's very explicit and robus
+    Might not be needed anymore, but it's very explicit and robust
     """
     audio_clip_info = {
         "mediaPoolItem": clip_list[2],
