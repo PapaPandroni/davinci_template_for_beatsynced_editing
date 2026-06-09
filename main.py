@@ -132,8 +132,8 @@ def timestamps_for_beats(file_path: str) -> list:
 
 
 def main():
-    audio_file = "/Users/peremils/Documents/repos/first_uv_project/test_media/ES_Say a Prayer (Instrumental Version) - Egaoya.wav" #input(f"Enter file path for a song: ")
-    black_video = "/Users/peremils/Documents/repos/first_uv_project/test_media/Black_5_minutes.mp4" #input("Enter filepath for black video: ")
+    audio_file = input(f"Enter file path for a song: ")
+    black_video = input("Enter filepath for black video: ")
 
     timestamps = timestamps_for_beats(file_path=audio_file.strip("'").strip('"')) #must remove qutations from the string for the filepath
 
