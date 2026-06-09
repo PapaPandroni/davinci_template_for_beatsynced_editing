@@ -94,8 +94,8 @@ def add_cuts(resolve, beat_times):
     Generate clips for every 4th beat. 
     """
     for i in range(0, len(beat_times) - 4, 4):
-        start_frame = int(beat_times[i] * fps) + offset
-        end_frame = int(beat_times[i + 4] * fps) + offset
+        start_frame = int(beat_times[i] * fps)
+        end_frame = int(beat_times[i + 4] * fps)
 
         clip_info = {
             "mediaPoolItem": black_video,
